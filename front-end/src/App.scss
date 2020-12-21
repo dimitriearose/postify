@@ -12,7 +12,7 @@ body {
 }
 
 .app {
-  background: #333;
+  background: #fff;
 }
 
 
@@ -26,4 +26,11 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.app__body {
+  max-width: 1366px;
+  width: 1366px;
+  margin:75px auto 0rem auto;
+  display: flex;
 }

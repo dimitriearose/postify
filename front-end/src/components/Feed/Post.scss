@@ -1,0 +1,10 @@
+.post {
+    margin-bottom: 20px;
+    padding: 2rem;
+    background-color: #e4e6eb;
+    border-radius: .5rem;
+
+    & > h4 {
+        font-size: 16px;
+    }
+}

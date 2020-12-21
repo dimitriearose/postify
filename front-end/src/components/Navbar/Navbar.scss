@@ -1,0 +1,41 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  padding: 1.3rem 1.5rem;
+  color: #fff;
+ 
+}
+
+.navigation__center {
+    display: flex;
+    align-items: center;
+
+    & > a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 2rem;
+        padding: .5rem;
+        border-radius: .3rem;
+    }
+
+    & > a:last-of-type {
+        margin-right: 0;
+    }
+}
+
+.navigation__link{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.navigation__logo {
+  font-size: 1.5rem;  
+  font-weight: 400;
+}
+
+.navigation__link__active{
+    text-decoration: underline;
+}

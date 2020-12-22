@@ -20,9 +20,9 @@ const App = () => {
  
           <Switch>
           
-            <Route path='/signup'>
+            {!userInfo.userInfo?.name ? <Route path='/signup'>
               <Signup />
-            </Route>
+            </Route> : null}
 
         { userInfo.userInfo?.name  ? <Route path="/home">
             <Navbar />
@@ -32,11 +32,11 @@ const App = () => {
               </div>
             </Route> : null}
 
-            <Route path='/' exact >
+            {!userInfo.userInfo?.name ?  <Route path='/' exact >
               <Login />
-            </Route>
+            </Route> : null}
 
-        <Redirect to='/'/>
+       { !userInfo.userInfo?.name ? <Redirect to='/'/> : <Redirect to='/home'/>}
           </Switch>
         </BrowserRouter>
     </div>

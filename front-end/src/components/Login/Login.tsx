@@ -24,7 +24,7 @@ function Login() {
             if (loginSuccess.success) {
                 setEmail('')
         setPassword('')
-                history.push('/home')
+             
             }
         }
 

@@ -25,7 +25,7 @@ function Signup() {
 
             if (signUpSuccess.success){
 
-                history.push('/home')
+             
             }
         }
         

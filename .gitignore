@@ -1,0 +1,8 @@
+/back-end/node_modules 
+/front-end/node_modules 
+/front-end/build 
+/back-end/config 
+/back-end/config/.env 
+/back-end/config/config.env 
+/back-end/.env 
+/back-end/dist 

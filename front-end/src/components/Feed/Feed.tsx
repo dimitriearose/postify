@@ -66,8 +66,8 @@ createdAt: new Date()
     return (
         <div className='feed'>
             <div className="feed__posts">
-                {posts.map((post) => {
-                    return <Post createdAt={post.createdAt} name={post.name} details={post.details}/>
+                {posts.map((post,index) => {
+                    return <Post createdAt={post.createdAt} name={post.name} details={post.details} key={index}/>
                 })}
             </div>
         </div>

@@ -1,73 +1,31 @@
-import React from 'react'
-import {Helmet} from 'react-helmet'
+import React ,{useEffect,useState}from 'react'
 import Post from './Post'
+import axios from 'axios'
 import './Feed.scss'
 
 function Feed() {
-    const posts = [
-        { name: 'Dimitri',
-        details: 'Badman nuh smile',
-        createdAt: new Date()
-    },
+    const [posts,setPosts] = useState([])
+    
+    const [message,setPosts] = useState([])
 
-    { name: 'MIkG',
-    details: 'I crash cars',
-    createdAt: new Date()
-},
+    useEffect(() => {
+        const fetchPostes = async () => {
+            const {data} = await axios.get('http://localhost:3001/post')
+            setPosts(data)
+            console.log(data)
+        }
 
-{ name: 'William',
-details: 'You have a fat ass but can you reverse a linked list?',
-createdAt: new Date()
-},
+        fetchPostes()
 
-{ name: 'Rashane',
-details: 'My heart belongs to grace ann!',
-createdAt: new Date()
-},
-{ name: 'Dimitri',
-details: 'Badman nuh smile',
-createdAt: new Date()
-},
-
-{ name: 'MIkG',
-details: 'I crash cars',
-createdAt: new Date()
-},
-
-{ name: 'William',
-details: 'You have a fat ass but can you reverse a linked list?',
-createdAt: new Date()
-},
-
-{ name: 'Rashane',
-details: 'My heart belongs to grace ann!',
-createdAt: new Date()
-},
-{ name: 'Dimitri',
-details: 'Badman nuh smile',
-createdAt: new Date()
-},
-
-{ name: 'MIkG',
-details: 'I crash cars',
-createdAt: new Date()
-},
-
-{ name: 'William',
-details: 'You have a fat ass but can you reverse a linked list?',
-createdAt: new Date()
-},
-
-{ name: 'Rashane',
-details: 'My heart belongs to grace ann!',
-createdAt: new Date()
-}
-    ]
+    },[])
     return (
         <div className='feed'>
+            <form onSubmit={} className="feed__form">
+                <input type="text"/>                
+            </form>
             <div className="feed__posts">
-                {posts.map((post,index) => {
-                    return <Post createdAt={post.createdAt} name={post.name} details={post.details} key={index}/>
+                {posts.map((post) => {
+                    return <Post createdAt={post.createdAt} name={post.name} details={post.details} key={post._id} creator={post.creator.name} creatorEmail={post.creator.email}/>
                 })}
             </div>
         </div>

@@ -21,6 +21,8 @@ const auth = async (req:RequestPlus,res:Response,next:NextFunction) => {
 
 
     req.user = user
+
+    next()
 }
 
 

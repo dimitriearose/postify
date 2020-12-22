@@ -1,13 +1,15 @@
 import Post from '../models/post'
 import express,{Router} from 'express'
 import auth from '../middleware/auth'
+import {RequestPlus} from '../middleware/auth'
 
 const router:Router = express.Router()
 
 //CREATE POST
-router.post('/post',auth, async (req, res) => {
+router.post('/post',auth, async (req:RequestPlus, res) => {
+    const {details,name} = req.body
     try {
-        const post =  new Post(req.body)
+        const post =  new Post({details,name, creator:req.user._id})
 
         if (!post) {
             res.status(400).send({success:false,message:'Bad Request'})
@@ -22,9 +24,9 @@ router.post('/post',auth, async (req, res) => {
     }
 })
 
-router.get('/post',auth, async (req, res) => {
+router.get('/post', async (req, res) => {
     try {
-        const posts = await Post.find({})
+        const posts = await Post.find({}).populate({path:'creator',select:'name email'}).sort('-createdAt')
 
         if (!posts) {
             res.status(500).send({success:false,message:'Server Error'})

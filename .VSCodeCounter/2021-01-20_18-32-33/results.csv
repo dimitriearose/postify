@@ -1,0 +1,44 @@
+"filename", "language", "XML", "JSON", "TypeScript", "TypeScript React", "Log", "SCSS", "HTML", "comment", "blank", "total"
+"c:\Users\dimit\OneDrive\projects\collab\postify\.idea\aws.xml", "XML", 11, 0, 0, 0, 0, 0, 0, 0, 0, 11
+"c:\Users\dimit\OneDrive\projects\collab\postify\.idea\modules.xml", "XML", 8, 0, 0, 0, 0, 0, 0, 0, 0, 8
+"c:\Users\dimit\OneDrive\projects\collab\postify\.idea\postify.iml", "XML", 12, 0, 0, 0, 0, 0, 0, 0, 0, 12
+"c:\Users\dimit\OneDrive\projects\collab\postify\.idea\vcs.xml", "XML", 6, 0, 0, 0, 0, 0, 0, 0, 0, 6
+"c:\Users\dimit\OneDrive\projects\collab\postify\.idea\workspace.xml", "XML", 54, 0, 0, 0, 0, 0, 0, 0, 0, 54
+"c:\Users\dimit\OneDrive\projects\collab\postify\back-end\package-lock.json", "JSON", 0, 2316, 0, 0, 0, 0, 0, 0, 1, 2317
+"c:\Users\dimit\OneDrive\projects\collab\postify\back-end\package.json", "JSON", 0, 37, 0, 0, 0, 0, 0, 0, 1, 38
+"c:\Users\dimit\OneDrive\projects\collab\postify\back-end\src\db\mongoose.ts", "TypeScript", 0, 0, 15, 0, 0, 0, 0, 0, 6, 21
+"c:\Users\dimit\OneDrive\projects\collab\postify\back-end\src\index.ts", "TypeScript", 0, 0, 19, 0, 0, 0, 0, 0, 10, 29
+"c:\Users\dimit\OneDrive\projects\collab\postify\back-end\src\middleware\auth.ts", "TypeScript", 0, 0, 18, 0, 0, 0, 0, 0, 11, 29
+"c:\Users\dimit\OneDrive\projects\collab\postify\back-end\src\models\post.ts", "TypeScript", 0, 0, 30, 0, 0, 0, 0, 0, 5, 35
+"c:\Users\dimit\OneDrive\projects\collab\postify\back-end\src\models\user.ts", "TypeScript", 0, 0, 42, 0, 0, 0, 0, 0, 7, 49
+"c:\Users\dimit\OneDrive\projects\collab\postify\back-end\src\routes\post.ts", "TypeScript", 0, 0, 30, 0, 0, 0, 0, 1, 12, 43
+"c:\Users\dimit\OneDrive\projects\collab\postify\back-end\src\routes\user.ts", "TypeScript", 0, 0, 49, 0, 0, 0, 0, 0, 31, 80
+"c:\Users\dimit\OneDrive\projects\collab\postify\back-end\tsconfig.json", "JSON", 0, 12, 0, 0, 0, 0, 0, 51, 8, 71
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\debug.log", "Log", 0, 0, 0, 0, 3, 0, 0, 0, 1, 4
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\package-lock.json", "JSON", 0, 17664, 0, 0, 0, 0, 0, 0, 1, 17665
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\package.json", "JSON", 0, 54, 0, 0, 0, 0, 0, 0, 1, 55
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\public\index.html", "HTML", 0, 0, 0, 0, 0, 0, 18, 0, 3, 21
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\public\manifest.json", "JSON", 0, 25, 0, 0, 0, 0, 0, 0, 1, 26
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\App.scss", "SCSS", 0, 0, 0, 0, 0, 28, 0, 0, 8, 36
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\App.tsx", "TypeScript React", 0, 0, 0, 35, 0, 0, 0, 0, 12, 47
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Feed\Feed.scss", "SCSS", 0, 0, 0, 0, 0, 41, 0, 0, 7, 48
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Feed\Feed.tsx", "TypeScript React", 0, 0, 0, 39, 0, 0, 0, 0, 13, 52
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Feed\Post.scss", "SCSS", 0, 0, 0, 0, 0, 9, 0, 0, 1, 10
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Feed\Post.tsx", "TypeScript React", 0, 0, 0, 21, 0, 0, 0, 0, 6, 27
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Login\Login.scss", "SCSS", 0, 0, 0, 0, 0, 57, 0, 0, 12, 69
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Login\Login.tsx", "TypeScript React", 0, 0, 0, 40, 0, 0, 0, 0, 15, 55
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Login\Signup.scss", "SCSS", 0, 0, 0, 0, 0, 57, 0, 0, 12, 69
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Login\Signup.tsx", "TypeScript React", 0, 0, 0, 34, 0, 0, 0, 0, 15, 49
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Navbar\Navbar.scss", "SCSS", 0, 0, 0, 0, 0, 42, 0, 0, 7, 49
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Navbar\Navbar.tsx", "TypeScript React", 0, 0, 0, 24, 0, 0, 0, 0, 7, 31
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Sidebar\Sidebar.scss", "SCSS", 0, 0, 0, 0, 0, 12, 0, 0, 0, 12
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Sidebar\Sidebar.tsx", "TypeScript React", 0, 0, 0, 22, 0, 0, 0, 0, 10, 32
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Sidebar\User.scss", "SCSS", 0, 0, 0, 0, 0, 8, 0, 0, 0, 8
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Sidebar\User.tsx", "TypeScript React", 0, 0, 0, 13, 0, 0, 0, 0, 5, 18
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Submit\Submit.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\components\Submit\Submit.tsx", "TypeScript React", 0, 0, 0, 8, 0, 0, 0, 0, 4, 12
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\context\userContext.tsx", "TypeScript React", 0, 0, 0, 49, 0, 0, 0, 0, 25, 74
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\index.tsx", "TypeScript React", 0, 0, 0, 10, 0, 0, 0, 0, 2, 12
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\src\react-app-env.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"c:\Users\dimit\OneDrive\projects\collab\postify\front-end\tsconfig.json", "JSON", 0, 26, 0, 0, 0, 0, 0, 0, 1, 27
+"Total", "-", 91, 20134, 203, 295, 3, 254, 18, 53, 263, 21314

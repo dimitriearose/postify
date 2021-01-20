@@ -20,7 +20,6 @@ interface Props {
 
 export const UserProvider = ({children}:Props) => {
 
-
     const [userInfo,setUserInfo] = useState({userInfo:userLS})
     const [loginFail,setLoginFail] = useState({fail:false})
     const [loginSuccess,setLoginSuccess] = useState({success:false})

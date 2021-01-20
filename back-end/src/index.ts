@@ -9,8 +9,6 @@ dotenv.config({path:'src/.env'})
  
 
 const app:Application = express()
-
-
 connect()
 
 app.use(cors())

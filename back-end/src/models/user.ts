@@ -10,7 +10,6 @@ createdAt:Date
 updatedAt:Date
 }
 
-
 const userSchema = new mongoose.Schema({
     name: {
         type: String,

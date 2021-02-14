@@ -8,7 +8,6 @@ import Navbar from "./components/Navbar/Navbar"
 import UserState from "./context/userContext"
 import Sidebar from "./components/Sidebar/Sidebar"
 import About from "./components/About/About"
-import Profile from "./components/Profile/Profile"
 
 const App = () => {
   const { userInfo } = useContext(UserState)
@@ -43,13 +42,6 @@ const App = () => {
             <Route path='/about' exact>
               <Navbar />
               <About />
-            </Route>
-          ) : null}
-
-          {userInfo.userInfo?.name ? (
-            <Route path='/profile' exact>
-              <Navbar />
-              <Profile />
             </Route>
           ) : null}
 
